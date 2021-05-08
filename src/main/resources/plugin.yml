@@ -1,0 +1,24 @@
+main: pers.flowerinsnow.deathswap.DeathSwap
+name: DeathSwap
+version: 0 Pre 1
+commands:
+  deathswap:
+    aliases:
+      - ds
+permissions:
+  deathswap.*:
+    default: op
+    children:
+      - deathswap.start
+      - deathswap.stop
+      - deathswap.time
+      - deathswap.maxtime
+
+  deathswap.start:
+    default: op
+  deathswap.stop:
+    default: op
+  deathswap.time:
+    default: op
+  deathswap.maxtime:
+    default: op
